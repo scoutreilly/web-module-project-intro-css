@@ -1,0 +1,126 @@
+body {
+  background-color: white;
+  font-family: 'Roboto Mono';
+  width: 95vw;
+}
+
+.navigation {
+  margin: 2% 8%;
+  width: 100%;
+}
+
+nav p {
+  display: inline-block;
+  padding: 10px 20px;
+  box-sizing: content-box;
+  border-radius: 10px;
+  margin: auto 7%;
+  width: 10%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+nav p:hover {
+  animation-name: faded;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes faded {
+  from {background-color: #DDB9A3; color: rgb(255, 255, 255);}
+  to {background-color: #F9E7DC; color: #DDB9A3;}
+}
+
+nav p:nth-child(1) {
+  background-color: #FF764E;
+
+}
+
+nav p:nth-child(2) {
+  background-color: #5ED3EB;
+}
+
+nav p:nth-child(3) {
+  background-color: #FFCD69;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+.intro {
+  padding-bottom: 40px;
+} 
+
+.intro div {
+  display: inline-block;
+  width: 62%;
+  text-align: center;
+}
+
+.intro .image {
+  width: 26%;
+  padding-top: 50px;
+}
+
+.smaller {
+  width: 70%;
+  padding-left: 120px;
+}
+
+#roundOne {
+  height: 35vh;
+  border-radius: 360px;
+}
+
+.centerContent {
+  background-color: #DDB9A3;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+.skinnyContent {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 550px;
+  width: 20%;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.icon {
+  height: 15vh;
+}
+
+.footerHero {
+  width: 100%;
+}
+
+footer img {
+  height: 400px;
+}
+
+footer {
+  background-color: #F9E7DC;
+  padding-bottom: 30px;
+}
+
+footer .navigation {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
